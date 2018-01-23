@@ -4,13 +4,13 @@ $CURRENT_DIR = __DIR__;
 /*set page title here*/
 $PAGE_TITLE = "Korigan Design | About";
 /*load the HTML head tag: head-utils.php*/
-require_once("php/partials/head-utils.php");
+require_once("../php/partials/head-utils.php");
 ?>
 
 	<!-- Navigation Bar -->
 
-<?php require_once("php/partials/header.php");?>
+<?php require_once("../php/partials/header.php");?>
 
 	<!-- Footer -->
 
-<?php require_once("php/partials/footer.php");?>
+<?php require_once("../php/partials/footer.php");?>
