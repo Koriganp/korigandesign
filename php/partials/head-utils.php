@@ -74,7 +74,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Page Title -->
 
-		<title>Korigan Design | Media and Web Design</title>
+		<title><?php echo $PAGE_TITLE;?></title>
 
 	</head>
 	<body class="sfooter">
