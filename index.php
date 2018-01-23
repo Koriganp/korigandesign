@@ -10,3 +10,7 @@ require_once("php/partials/head-utils.php");
 	<!-- Navigation Bar -->
 
 <?php require_once("php/partials/header.php");?>
+
+	<!-- Footer -->
+
+<?php require_once("php/partials/footer.php");?>
