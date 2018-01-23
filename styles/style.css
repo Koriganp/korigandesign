@@ -17,7 +17,16 @@ body, html {
 	height: 100%;
 }
 
+/********/
+/*Navbar*/
+/********/
+
 /*Change brand size*/
 .nav-icon {
 	max-width: 15%;
+}
+
+/*Spacing for nav-links*/
+.nav-item {
+	margin-left: 3rem;
 }
