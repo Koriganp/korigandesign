@@ -57,23 +57,23 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-default navbar-expand-md navbar-light bg-light">
-				<a class="navbar-brand" href="#">Korigan Design</a>
+				<a class="navbar-brand" href="#"><img class="nav-icon" src="images/KD.png"> Korigan Design</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="#">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="#">Services</a>
+							<a href="services/index.php">Services</a>
 						</li>
 						<li class="nav-item">
-							<a href="#">About</a>
+							<a href="about/index.php">About</a>
 						</li>
 						<li class="nav-item">
-							<a href="#">Contact</a>
+							<a href="contact/index.php">Contact</a>
 						</li>
 				   </ul>
 				</div>
