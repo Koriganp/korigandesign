@@ -11,6 +11,10 @@ require_once("../php/partials/head-utils.php");
 
 <?php require_once("../php/partials/header.php");?>
 
+	<!-- Main Content -->
+
+div>
+
 	<!-- Footer -->
 
 <?php require_once("../php/partials/footer.php");?>
