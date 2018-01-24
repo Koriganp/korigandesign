@@ -2,6 +2,16 @@
 /*Universal for site*/
 /********************/
 
+/****************/
+/*Fonts for site*/
+/****************/
+
+/*font-family: 'Shadows Into Light', cursive;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Rajdhani', sans-serif;*/
+/*font-family: 'Julius Sans One', sans-serif;*/
+/*font-family: 'Allura', cursive;*/
+
 /*change font for site*/
 body {
 	margin: 0;
@@ -32,6 +42,5 @@ body, html {
 }
 
 .space {
-	margin-left: 3rem;
-	margin-right: 3rem;
+	margin-right: 6rem;
 }
