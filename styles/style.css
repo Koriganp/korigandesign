@@ -30,3 +30,8 @@ body, html {
 .nav-item {
 	margin-left: 3rem;
 }
+
+.space {
+	margin-left: 3rem;
+	margin-right: 3rem;
+}

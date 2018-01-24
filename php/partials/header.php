@@ -1,6 +1,6 @@
 <header>
 	<nav class="navbar navbar-default navbar-expand-md navbar-light bg-light">
-		<a class="navbar-brand" href="#"><img class="nav-icon" src="<?php echo $PREFIX;?>images/KD.png"> Korigan Design</a>
+		<a class="navbar-brand space" href="#"><img class="nav-icon space" src="<?php echo $PREFIX;?>images/KD.png"> Korigan Design</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
