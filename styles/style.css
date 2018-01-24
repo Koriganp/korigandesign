@@ -31,6 +31,14 @@ body, html {
 /*Navbar*/
 /********/
 
+/*Make transparent*/
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+}
+
 /*Change brand size*/
 .nav-icon {
 	max-width: 10%;
@@ -42,9 +50,16 @@ body, html {
 }
 
 .space {
-	margin-right: 4rem;
+	margin-right: 3rem;
 }
 
 .brand-text {
 	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+}
+
+li > a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
 }
