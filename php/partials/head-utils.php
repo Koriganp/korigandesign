@@ -60,6 +60,12 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<script src="<?php echo $PREFIX;?>js/form-validate.js" type="text/javascript"></script>
 
+		<!-- Lazysizes -->
+
+		<script src="<?php echo $PREFIX;?>js/lazysizes.min.js" async=""></script>
+
+		<!-- Additional Javascript -->
+
 		<!-- Google reCAPTCHA -->
 
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
