@@ -1,5 +1,5 @@
 <header>
-	<nav class="navbar navbar-default navbar-expand-md navbar-light bg-light">
+	<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light">
 		<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" src="<?php echo $PREFIX;?>images/KD.png"><strong> Korigan Design</strong></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -7,16 +7,19 @@
 		<div class="collapse navbar-collapse" id="navbarToggler">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="" href="<?php echo $PREFIX;?>index.php">Home </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>index.php">Home </a>
 				</li>
 				<li class="nav-item">
-					<a href="<?php echo $PREFIX;?>services/index.php"> Services </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>services/index.php"> Services </a>
 				</li>
 				<li class="nav-item">
-					<a href="<?php echo $PREFIX;?>about/index.php"> About </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>about/index.php"> About </a>
 				</li>
 				<li class="nav-item">
-					<a href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>portfolio/index.php"> Portfolio </a>
+				</li>
+				<li class="nav-item">
+					<a class="text-dark" href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
 				</li>
 			</ul>
 		</div>

@@ -40,6 +40,11 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 
+		<!-- Slick Carousel -->
+
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>styles/slick.css">
+		<link rel="stylesheet" href="<?php echo $PREFIX;?>styles/slick-theme.css">
+
 		<!-- My CSS -->
 
 		<link href="<?php echo $PREFIX;?>styles/style.css" rel="stylesheet"/>
@@ -59,12 +64,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- JavaScript Form Validator File -->
 
 		<script src="<?php echo $PREFIX;?>js/form-validate.js" type="text/javascript"></script>
-
-		<!-- Lazysizes -->
-
-		<script src="<?php echo $PREFIX;?>js/lazysizes.min.js" async=""></script>
-
-		<!-- Additional Javascript -->
 
 		<!-- Google reCAPTCHA -->
 

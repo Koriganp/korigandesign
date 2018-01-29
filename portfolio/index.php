@@ -2,7 +2,7 @@
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "Korigan Design | Services";
+$PAGE_TITLE = "Korigan Design | Portfolio";
 /*load the HTML head tag: head-utils.php*/
 require_once("../php/partials/head-utils.php");
 ?>
@@ -13,13 +13,7 @@ require_once("../php/partials/head-utils.php");
 
 	<!-- Main Content -->
 
-	<h1>Services</h1>
-
-	<h2 id="webDesign">Web Design and Development</h2>
-
-	<h2 id="photography">Photography and Video Production</h2>
-
-	<h2 id="graphicDesign">Graphic Design and Branding</h2>
+	div>
 
 	<!-- Footer -->
 

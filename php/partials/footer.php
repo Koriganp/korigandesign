@@ -1,8 +1,14 @@
 
 		<footer class="footer mt-0 fixed-bottom">
 			<div class="bg-light text-dark nav justify-content-center p-2">
-				<p>&copy; 2018<a class="text-dark" href="https://koriganpayne.com"> Korigan Payne</a></p>
+				<p class="foot-text">&copy; 2018<a class="text-dark" href="https://koriganpayne.com" target="_blank"> Korigan Payne</a></p>
 			</div>
 		</footer>
+
+		<!-- Additional Javascript -->
+
+		<script src="<?php echo $PREFIX;?>js/slick.js" type="text/javascript"></script>
+		<script src="<?php echo $PREFIX;?>js/main.js" type="text/javascript"></script>
+
 	</body>
 </html>
