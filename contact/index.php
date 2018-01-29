@@ -95,7 +95,7 @@ require_once("../php/partials/head-utils.php");
 		</main>
 
 		<div>
-			<p class="d-flex justify-content-center text-light mt-1">I'll be in touch soon!</p>
+			<p class="d-flex justify-content-center text-dark mt-1">I'll be in touch soon!</p>
 		</div>
 	</div>
 

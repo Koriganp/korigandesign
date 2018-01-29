@@ -10,15 +10,10 @@ require_once("php/partials/head-utils.php");
 	<!-- Navigation Bar -->
 
 <?php require_once("php/partials/header.php");?>
-<div class="container">
-	<div class="row">
-		<div class="col-5">
-			<h1>Custom Media Solutions</h1>
-		</div>
-		<div class="col-7">
-		</div>
-	</div>
-</div>
+
+	<!-- Main Content -->
+
+
 
 	<!-- Footer -->
 
