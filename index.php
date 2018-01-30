@@ -45,8 +45,10 @@ require_once("php/partials/head-utils.php");
 
 		<div>
 			<div class="home-text">
-				<h2><a href="<?php echo $PREFIX;?>about/index.php" class="home-link text-dark">We think, we solve, we design.</a></h2>
-				<p><a href="<?php echo $PREFIX;?>about/index.php" class="home-link text-dark">Creating high-end design solutions through print, web, and video to help your business maximize brand strategy and marketing</a></p>
+				<a href="<?php echo $PREFIX;?>about/index.php" class="home-link text-dark">
+					<h2>We think, we solve, we design.</h2>
+					<p>Creating high-end design solutions through print, web, and video to help your business maximize brand strategy and marketing <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
+				</a>
 			</div>
 			<div class="home-pic">
 				<img class="home-images" src="<?php echo $PREFIX;?>images/all.jpg" alt="Software Development">
@@ -57,8 +59,10 @@ require_once("php/partials/head-utils.php");
 
 		<div>
 			<div class="home-text">
-				<h2><a href="<?php echo $PREFIX;?>services/index.php#webDesign" class="text-dark home-link">Web Design and Development</a></h2>
-				<p><a href="<?php echo $PREFIX;?>services/index.php#webDesign" class="text-dark home-link">We provide solutions to web design and development needs.</a></p>
+				<a href="<?php echo $PREFIX;?>services/index.php#webDesign" class="text-dark home-link">
+					<h2>Web Design and Development</h2>
+					<p>We provide solutions for web design and development needs. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
+				</a>
 			</div>
 			<div class="home-pic">
 				<img class="home-images" src="<?php echo $PREFIX;?>images/coding.png" alt="Web Development">
@@ -69,8 +73,10 @@ require_once("php/partials/head-utils.php");
 
 		<div>
 			<div class="home-text">
-				<h2><a href="<?php echo $PREFIX;?>services/index.php#photography" class="text-dark home-link">Photography and Video Production</a></h2>
-				<p><a href="<?php echo $PREFIX;?>services/index.php#photography" class="text-dark home-link">Custom photos and assist in commercial writing and producing your video.</a></p>
+				<a href="<?php echo $PREFIX;?>services/index.php#photography" class="text-dark home-link">
+					<h2>Photography and Video Production</h2>
+					<p>Create custom media for your business. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
+				</a>
 			</div>
 			<div class="home-pic">
 				<img class="home-images" src="<?php echo $PREFIX;?>images/photography.jpg" alt="Photography">
@@ -81,8 +87,10 @@ require_once("php/partials/head-utils.php");
 
 		<div>
 			<div class="home-text">
-				<h2><a href="<?php echo $PREFIX;?>services/index.php#graphicDesign" class="text-dark home-link">Graphic Design and Branding</a></h2>
-				<p><a href="<?php echo $PREFIX;?>services/index.php#graphicDesign" class="text-dark home-link">Full visual branding services including strategy and implementation.</a></p>
+				<a href="<?php echo $PREFIX;?>services/index.php#graphicDesign" class="text-dark home-link">
+					<h2>Graphic Design and Branding</h2>
+					<p>Full visual branding services including strategy and implementation. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
+				</a>
 			</div>
 			<div class="home-pic">
 				<img class="home-images" src="<?php echo $PREFIX;?>images/graphic-design.jpg" alt="Graphic Design">

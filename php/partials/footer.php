@@ -1,7 +1,8 @@
 
-		<footer class="footer mt-0 fixed-bottom">
-			<div class="bg-light text-dark nav justify-content-center p-2">
+		<footer class="footer mt-0">
+			<div class="bg-light text-dark nav p-2">
 				<p class="foot-text">&copy; 2018<a class="text-dark" href="https://koriganpayne.com" target="_blank"> Korigan Payne</a></p>
+				<p
 			</div>
 		</footer>
 
