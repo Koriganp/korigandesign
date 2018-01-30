@@ -39,6 +39,11 @@ body, html {
 	box-shadow:none;
 }
 
+/*Color First Letter*/
+.k {
+	color: blue;
+}
+
 /*Change brand size*/
 .nav-icon {
 	max-width: 10%;
@@ -54,7 +59,7 @@ body, html {
 }
 
 .brand-text {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2.5em;
 }
 

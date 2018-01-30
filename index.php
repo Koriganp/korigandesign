@@ -11,7 +11,7 @@ require_once("php/partials/head-utils.php");
 
 		<header>
 			<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light">
-				<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" src="<?php echo $PREFIX;?>images/KD.png"><strong> Korigan Design</strong></a>
+				<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" src="<?php echo $PREFIX;?>images/KD.png"><strong> <span class="k">K</span>origan Design</strong></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
