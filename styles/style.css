@@ -137,6 +137,19 @@ li > a:hover {
 	}
 }
 
+/********/
+/*Footer*/
+/********/
+
+.bg {
+	background: rgba(0,0,0,.001);
+}
+
+.foot-text {
+	padding-left: 12%;
+	position: relative;
+}
+
 /***********/
 /*Home Page*/
 /***********/
@@ -241,15 +254,4 @@ li > a:hover {
 	text-decoration: none;
 }
 
-/********/
-/*Footer*/
-/********/
 
-.bg {
-	background: rgba(0,0,0,.001);
-}
-
-.foot-text {
-	padding-left: 12%;
-	position: relative;
-}
