@@ -12,25 +12,25 @@ require_once("php/partials/head-utils.php");
 		<header>
 			<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light">
 				<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" src="<?php echo $PREFIX;?>images/KD.png"><strong> <span class="k">K</span>origan Design</strong></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler position-toggle" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="text-light" href="<?php echo $PREFIX;?>index.php">Home </a>
+							<a class="link-trait" href="<?php echo $PREFIX;?>index.php">Home </a>
 						</li>
 						<li class="nav-item">
-							<a class="text-light" href="<?php echo $PREFIX;?>services/index.php"> Services </a>
+							<a class="link-trait" href="<?php echo $PREFIX;?>services/index.php"> Services </a>
 						</li>
 						<li class="nav-item">
-							<a class="text-light" href="<?php echo $PREFIX;?>about/index.php"> About </a>
+							<a class="link-trait" href="<?php echo $PREFIX;?>about/index.php"> About </a>
 						</li>
 						<li class="nav-item">
-							<a class="text-light" href="<?php echo $PREFIX;?>portfolio/index.php"> Portfolio </a>
+							<a class="link-trait" href="<?php echo $PREFIX;?>portfolio/index.php"> Portfolio </a>
 						</li>
 						<li class="nav-item">
-							<a class="text-light" href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
+							<a class="link-trait" href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
 						</li>
 					</ul>
 				</div>
@@ -101,7 +101,7 @@ require_once("php/partials/head-utils.php");
 			<!-- Footer -->
 
 		<footer class="footer mt-0 fixed-bottom">
-			<div class="bg text-dark nav p-2">
+			<div class="bg text-dark p-2">
 				<p class="foot-text">&copy; 2018<a class="text-dark" href="https://koriganpayne.com" target="_blank"> Korigan Payne</a></p>
 			</div>
 		</footer>

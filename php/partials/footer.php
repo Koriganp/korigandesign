@@ -1,6 +1,6 @@
 
-		<footer class="container-fluid">
-			<div class="bg-light navbar fixed-bottom nav justify-content-center">
+		<footer class="container-fluid bg">
+			<div class="navbar fixed-bottom justify-content-center">
 				<p class="text-center mt-2">&copy; 2018<a class="text-dark" href="https://koriganpayne.com" target="_blank"> Korigan Payne</a></p>
 			</div>
 		</footer>
