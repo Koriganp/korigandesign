@@ -1,5 +1,5 @@
 <header>
-	<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+	<nav class="navbar fixed-top navbar-expand-md navbar-light site-nav">
 		<a class="navbar-brand brand-text" href="#"><img class="nav-icon space" src="<?php echo $PREFIX;?>images/KD.png"><strong> <span class="first-letter">K</span>origan Design</strong></a>
 		<button class="navbar-toggler position-toggle" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>

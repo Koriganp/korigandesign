@@ -31,7 +31,7 @@ body, html {
 /*Navbar*/
 /********/
 
-/*Make transparent*/
+/*Make transparent on Home Page*/
 .navbar-default {
 	background-color:transparent !important;
 	border-color:transparent;
@@ -39,9 +39,15 @@ body, html {
 	box-shadow:none;
 }
 
+/*Make White and Opaque on All Other Pages*/
+.site-nav {
+	background: rgba(255,255,255,.75);
+}
+
 /*Color First Letter*/
 .first-letter {
 	color: blue;
+	font-weight: bold;
 }
 
 /*Change brand size*/
