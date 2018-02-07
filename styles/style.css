@@ -40,7 +40,7 @@ body, html {
 }
 
 /*Color First Letter*/
-.k {
+.first-letter {
 	color: blue;
 }
 
@@ -258,10 +258,23 @@ li > a:hover {
 /*Services Page*/
 /***************/
 
-.services-image {
+.page-top {
 	margin-top: 10rem;
-	padding: 0 20%;
-	width: 100%;
 }
 
+.service-title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.service-image {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+ .service-contact-link {
+	 color: black;
+	 text-decoration: none;
+	 font-weight: bold;
+	 text-transform: uppercase;
+ }
 
