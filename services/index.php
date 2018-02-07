@@ -13,6 +13,14 @@ require_once("../php/partials/head-utils.php");
 
 	<!-- Main Content -->
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<img class="services-image" src="<?php echo $PREFIX;?>images/web-developer.jpg">
+			</div>
+		</div>
+	</div>
+
 	<h1>Services</h1>
 
 	<h2 id="webDesign">Web Design and Development</h2>
