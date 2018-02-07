@@ -59,7 +59,7 @@ require_once("php/partials/head-utils.php");
 
 				<div>
 					<div class="home-text">
-						<a href="<?php echo $PREFIX;?>services/index.php#webDesign" class="text-dark home-link">
+						<a href="<?php echo $PREFIX;?>services/index.php" class="text-dark home-link">
 							<h2>Web Design and Development</h2>
 							<p>We provide solutions for web design and development needs. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
 						</a>
