@@ -96,19 +96,19 @@ require_once("php/partials/head-utils.php");
 						<img class="home-images" src="<?php echo $PREFIX;?>images/graphic-design.jpg" alt="Graphic Design">
 					</div>
 				</div>
-			</div>
 
 			<!-- Slide 5 -->
 
-			<div>
-				<div class="home-text">
-					<a href="<?php echo $PREFIX;?>services/index.php#seo" class="home-link text-dark">
-						<h2><span class="first-letter">S</span>earch Engine Optimization.</h2>
-						<p>Get more visitors for your products & services by the search terms they use <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
-					</a>
-				</div>
-				<div class="home-pic">
-					<img class="home-images" src="<?php echo $PREFIX;?>images/seo.jpg" alt="Search Engine Optimization">
+				<div>
+					<div class="home-text">
+						<a href="<?php echo $PREFIX;?>services/index.php#seo" class="home-link text-dark">
+							<h2><span class="first-letter">S</span>earch Engine Optimization.</h2>
+							<p>Get more visitors for your products & services by the search terms they use <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
+						</a>
+					</div>
+					<div class="home-pic">
+						<img class="home-images" src="<?php echo $PREFIX;?>images/seo.jpg" alt="Search Engine Optimization">
+					</div>
 				</div>
 			</div>
 

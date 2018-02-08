@@ -20,17 +20,29 @@ require_once("../php/partials/head-utils.php");
 	</div>
 	<hr>
 
-	<div class="container-fluid">
+	<div class="container my-4">
 		<div class="row">
 			<div class="col-md-6 col-sm-12">
 				<img src="<?php echo $PREFIX;?>images/web-developer.jpg" alt="Web Design" class="about-image">
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<h4></h4>
-				<p></p>
+			<div class="col-md-6 col-sm-12">
+				<h4 class="font-weight-bold"><span class="first-letter">K</span>origan Design is an Albuquerque based web software company.</h4>
+				<p>We know how to provide the right solution for you. We take stunning graphics and pair it with powerful technology to provide web based business solutions that work for you and your customers. After your project launches, we follow it up with unparalleled support to make sure you are taken care of. Our team specializes in software development, design and cyber security which makes us uniquely qualified to troubleshoot complex projects. Let us help you become a leader in your industry with a strong online presence.</p>
 			</div>
 		</div>
+	</div>
 
+	<hr>
+	<div class="container my-4">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<h4 class="mt-2 font-weight-bold"><span class="first-letter">Y</span>our Designer</h4>
+				<p>I'm Korigan Payne, and I'm the owner and lead developer at Korigan Design. I build good-looking, custom, responsive websites at affordable prices for individuals and small businesses everywhere. I am passionate about customer service, and have over 10 years experience meeting customers' needs. I studied marketing at North Western Oklahoma State University and Computer Science At Central New Mexico Community College. I enjoy spending time with my wife, our amazing teenage son, our two dogs and two cats, and one very lazy bearded dragon.</p>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="<?php echo $PREFIX;?>images/korigan.jpg" alt="Korigan Payne" class="about-image">
+			</div>
+		</div>
 	</div>
 
 	<!-- Footer -->
