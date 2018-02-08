@@ -46,7 +46,7 @@ require_once("php/partials/head-utils.php");
 				<div>
 					<div class="home-text">
 						<a href="<?php echo $PREFIX;?>about/index.php" class="home-link text-dark">
-							<h2>We think, we solve, we design.</h2>
+							<h2><span class="first-letter">W</span>e think, we solve, we design.</h2>
 							<p>Creating high-end design solutions through print, web, and video to help your business maximize brand strategy and marketing <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
 						</a>
 					</div>
@@ -60,7 +60,7 @@ require_once("php/partials/head-utils.php");
 				<div>
 					<div class="home-text">
 						<a href="<?php echo $PREFIX;?>services/index.php" class="text-dark home-link">
-							<h2>Web Design and Development</h2>
+							<h2><span class="first-letter">W</span>eb Design and Development</h2>
 							<p>We provide solutions for web design and development needs. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
 						</a>
 					</div>
@@ -74,7 +74,7 @@ require_once("php/partials/head-utils.php");
 				<div>
 					<div class="home-text">
 						<a href="<?php echo $PREFIX;?>services/index.php#photography" class="text-dark home-link">
-							<h2>Photography and Video Production</h2>
+							<h2><span class="first-letter">P</span>hotography and Video Production</h2>
 							<p>Create custom media for your business. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
 						</a>
 					</div>
@@ -88,7 +88,7 @@ require_once("php/partials/head-utils.php");
 				<div>
 					<div class="home-text">
 						<a href="<?php echo $PREFIX;?>services/index.php#graphicDesign" class="text-dark home-link">
-							<h2>Graphic Design and Branding</h2>
+							<h2><span class="first-letter">G</span>raphic Design and Branding</h2>
 							<p>Full visual branding services including strategy and implementation. <span class="ml-3 mt-2 fa fa-chevron-right"></span></p>
 						</a>
 					</div>

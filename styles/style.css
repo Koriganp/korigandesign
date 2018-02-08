@@ -6,11 +6,17 @@
 /*Fonts for site*/
 /****************/
 
-/*font-family: 'Shadows Into Light', cursive;*/
-/*font-family: 'Raleway', sans-serif;*/
-/*font-family: 'Rajdhani', sans-serif;*/
-/*font-family: 'Julius Sans One', sans-serif;*/
-/*font-family: 'Allura', cursive;*/
+/*
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Julius Sans One', sans-serif;
+
+    font-family: 'Lora', serif;
+
+    font-family: 'Poiret One', cursive;
+
+*/
 
 /*change font for site*/
 body {
@@ -22,6 +28,26 @@ body {
 	text-align: justify;
 	background-color: white;
 }
+
+/*Change font of headings*/
+h3 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.poiret {
+	font-family: 'Poiret One', cursive;
+}
+
+.lora {
+	font-family: 'Lora', serif;
+}
+
+hr {
+	display: block;
+	margin: 0.5em auto;
+	border: 1px inset;
+}
+
 /*Set height for site*/
 body, html {
 	height: 100%;
@@ -272,15 +298,31 @@ li > a:hover {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
 .service-image {
 	max-width: 100%;
 	height: auto;
 	width: auto;
 }
- .service-contact-link {
+
+.service-contact-link {
 	 color: black;
 	 text-decoration: none;
 	 font-weight: bold;
 	 text-transform: uppercase;
- }
+}
 
+/************/
+/*About Page*/
+/************/
+
+.move-down {
+	margin-top: 10rem;
+	border-bottom: blue;
+}
+
+.about-image {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}

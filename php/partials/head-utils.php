@@ -30,7 +30,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Google Fonts -->
 
-		<link href="https://fonts.googleapis.com/css?family=Allura|Julius+Sans+One|Rajdhani|Raleway|Shadows+Into+Light" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Lora|Poiret+One|Raleway" rel="stylesheet">
 
 		<!-- Font Awesome -->
 
