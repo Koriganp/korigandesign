@@ -326,3 +326,54 @@ li > a:hover {
 	height: auto;
 	width: auto;
 }
+
+/**************/
+/*Contact Page*/
+/**************/
+
+/*Page Content*/
+
+.contact-content {
+	position: relative;
+	overflow: hidden;
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background: fixed center center;
+}
+
+.contact-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.contact-background:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: -1;
+	background: center top no-repeat;
+	overflow: hidden;
+}
+
+/*xs to lg*/
+@media(min-width: 769px){
+	.contact-content {
+		background-image: url(../images/contact-background.jpg);
+	}
+}
+
+/*xs to 0*/
+@media(max-width: 768px) {
+	.contact-content .contact-background:before {
+		background-image: url(../images/contact-background.jpg);
+	}
+}
