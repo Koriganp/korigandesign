@@ -13,7 +13,7 @@ require_once("../php/partials/head-utils.php");
 
 	<!-- Information -->
 
-	<section class="contact-content text-light">
+	<section class="contact-content">
 		<div class="contact-background">
 			<div class="container move-down contact-info">
 				<div class="row">
