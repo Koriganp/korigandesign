@@ -20,9 +20,9 @@ require_once("../php/partials/head-utils.php");
 					<div class="col-3"></div>
 					<div class="col-6">
 						<h2 class="font-weight-bold"><span class="first-letter">O</span>ur goal is your success.</h2>
-						<p class="mt-5">We believe that the best business model is to treat people with respect. Not only the investment they are making, but their time as well.</p>
-						<p class="mt-5">When you hire us, you get professionalism. That means we are responsive to your needs and are available to answer any questions or concerns you have along the way, either by email, text, phone, or in-person, we will be there.</p>
-						<p class="mt-5">Would you like to discuss a potential project? You can send us a message using our contact form, or give us a call by using the contact information on the right.</p>
+						<p class="mt-5 font-weight-bold">We believe that the best business model is to treat people with respect. Not only the investment they are making, but their time as well.</p>
+						<p class="mt-5 font-weight-bold">When you hire us, you get professionalism. That means we are responsive to your needs and are available to answer any questions or concerns you have along the way, either by email, text, phone, or in-person. We will be there.</p>
+						<p class="mt-5 font-weight-bold">Would you like to discuss a potential project? You can send us a message using our contact form, or give us a call by using the contact information on the right.</p>
 					</div>
 					<div class="col-3"></div>
 				</div>
@@ -132,15 +132,15 @@ require_once("../php/partials/head-utils.php");
 					</div>
 					<div class="my-3">
 						<h5 class="font-weight-bold"><span class="first-letter">G</span>eneral Inquiries</h5>
-						<p class="ml-3">info@korigandesign.com</p>
+						<p class="ml-3"><a href="mailto:info@korigandesign.com?subject=Info">info@korigandesign.com</a></p>
 					</div>
 					<div class="my-3">
 						<h5 class="font-weight-bold"><span class="first-letter">S</span>ales</h5>
-						<p class="ml-3">sales@korigandesign.com</p>
+						<p class="ml-3"><a href="mailto:sales@korigandesign.com?subject=Sales">sales@korigandesign.com</a></p>
 					</div>
 					<div class="my-3">
 						<h5 class="font-weight-bold"><span class="first-letter">S</span>upport</h5>
-						<p class="ml-3">support@korigandesign.com</p>
+						<p class="ml-3"><a href="mailto:support@korigandesign.com?subject=Support">support@korigandesign.com</a></p>
 					</div>
 				</div>
 			</div>

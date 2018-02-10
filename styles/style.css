@@ -339,7 +339,8 @@ li > a:hover {
 	height: 80vh;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background: fixed center center;
+	background-attachment: fixed;
+	background-position: center center;
 }
 
 .contact-background {
@@ -358,9 +359,10 @@ li > a:hover {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 100%;
+	width: 100%;
 	z-index: -1;
-	background: center top no-repeat;
+	background-position: center top;
+	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
