@@ -69,7 +69,7 @@ try {
 	 *
 	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
 	 **/
-	$smtp = new Swift_SmtpTransport("localhost", 25);
+	$smtp = new Swift_SmtpTransport('localhost', 25);
 	$mailer = new Swift_Mailer($smtp);
 	$numSent = $mailer->send($swiftMessage, $failedRecipients);
 	/**
