@@ -297,6 +297,7 @@ li > a:hover {
 .service-title {
 	text-transform: uppercase;
 	font-weight: bold;
+	text-align: left;
 }
 
 .service-image {
