@@ -31,7 +31,7 @@ try {
 		throw(new Exception("reCAPTCHA error!"));
 	}
 	// sanitize the inputs from the form: name, email, subject, and message
-	// this assumes jQuery (not Angular!) will be submitting the form, so I'm using the $_POST superglobal
+	// this assumes jQuery will be submitting the form, so I'm using the $_POST superglobal
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
