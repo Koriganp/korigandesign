@@ -40,7 +40,9 @@ require_once("../php/partials/head-utils.php");
 				<p>I'm Korigan Payne, and I'm the owner and lead developer at Korigan Design. I build good-looking, custom, responsive websites at affordable prices for individuals and small businesses everywhere. I am passionate about customer service, and have over 10 years experience meeting customers' needs. I studied marketing at North Western Oklahoma State University and Computer Science At Central New Mexico Community College. I enjoy spending time with my wife, our amazing teenage son, our two dogs, two cats, and one very lazy bearded dragon.</p>
 			</div>
 			<div class="col-md-6 col-sm-12">
-				<img src="<?php echo $PREFIX;?>images/korigan.jpg" alt="Korigan Payne" class="about-image">
+				<a href="https://koriganpayne.com/" target="_blank">
+					<img src="<?php echo $PREFIX;?>images/korigan.jpg" alt="Korigan Payne" class="about-image">
+				</a>
 			</div>
 		</div>
 	</div>
