@@ -7,19 +7,19 @@
 		<div class="collapse navbar-collapse" id="navbarToggler">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>index.php">Home </a>
+					<a class="text-dark my-2" href="<?php echo $PREFIX;?>index.php">Home </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>services/index.php"> Services </a>
+					<a class="text-dark my-2" href="<?php echo $PREFIX;?>services/index.php"> Services </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>about/index.php"> About </a>
+					<a class="text-dark my-2" href="<?php echo $PREFIX;?>about/index.php"> About </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>portfolio/index.php"> Portfolio </a>
+					<a class="text-dark my-2" href="<?php echo $PREFIX;?>portfolio/index.php"> Portfolio </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
+					<a class="text-dark my-2" href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
 				</li>
 			</ul>
 		</div>

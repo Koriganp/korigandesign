@@ -369,51 +369,64 @@ li > a:hover {
 
 /*Page Content*/
 
-.contact-content {
-	position: relative;
-	overflow: hidden;
-	height: 80vh;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
+.form-placement {
+	margin: 2rem;
 }
 
-.contact-background {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 1;
-}
-
-.contact-background:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	z-index: -1;
-	background-position: center top;
-	background-repeat: no-repeat;
-	overflow: hidden;
+.contact-placement {
+	margin-top: 4rem;
+	padding-left: 10%;
 }
 
 /*xs to lg*/
 @media(min-width: 769px){
+
 	.contact-content {
 		background-image: url(../images/contact-background.jpg);
+		position: relative;
+		overflow: hidden;
+		height: 80vh;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+
+	.contact-background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+	}
+
+	.contact-background:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		background-position: center top;
+		background-repeat: no-repeat;
+		overflow: hidden;
 	}
 }
 
 /*xs to 0*/
 @media(max-width: 768px) {
-	.contact-content .contact-background:before {
-		background-image: url(../images/contact-background.jpg);
-		position: relative;
-		height: 100%;
+	.contact-content {
+		background: url(../images/contact-background.jpg) center repeat;
+		overflow: hidden;
+		width: auto;
+		height: auto;
+	}
+
+	.contact-placement {
+		margin: 0 1.5rem 3rem 0;
+		text-align: center;
 	}
 }
