@@ -13,6 +13,13 @@ require_once("../php/partials/head-utils.php");
 
 	<!-- Main Content -->
 
+	<div class="container-fluid move-down">
+		<div class="row justify-content-center mb-5">
+			<h1 class="poiret font-weight-bold"><span class="first-letter">W</span>hat We Do</h1>
+		</div>
+	</div>
+	<hr>
+
 	<div class="container bg-white page-top">
 		<div class="row py-5 my-5">
 			<div class="col-s-12 col-md-6 col-lg-8">

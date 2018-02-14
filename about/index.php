@@ -15,7 +15,7 @@ require_once("../php/partials/head-utils.php");
 
 	<div class="container-fluid move-down">
 		<div class="row justify-content-center mb-5">
-			<h1 class="poiret font-weight-bold"><span class="first-letter">W</span>hat We Do</h1>
+			<h1 class="poiret font-weight-bold"><span class="first-letter">O</span>ur Business</h1>
 		</div>
 	</div>
 	<hr>
