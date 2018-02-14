@@ -46,7 +46,7 @@ require_once("../php/partials/head-utils.php");
 
 						<!-- Name Line -->
 
-						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="POST" novalidate>
+						<form id="contact-form" action="<?php echo $PREFIX;?>php/mailer.php" method="post" novalidate>
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
