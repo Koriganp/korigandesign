@@ -350,131 +350,18 @@ li > a:hover {
 /*Portfolio Page*/
 /************************************************************************/
 
-.featured-work {
-	background-color: white;
-	padding-bottom: 2em;
+.portfolio-image {
+	max-width: 100%;
+	height: auto;
+	width: auto;
 }
 
-/*Csquare Custom Cupcakes*/
-
-.overlay-bottom {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: #000000;
-	opacity: .8;
-	overflow: hidden;
-	width: 100%;
-	height: 0;
-	transition: .5s ease;
+.portfolio-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
 }
 
-.cupcakes:hover .overlay-bottom {
-	height: 100%;
-}
-
-.text-bottom {
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-
-/*Korigan Payne*/
-
-.overlay-left {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: #000000;
-	opacity: .8;
-	overflow: hidden;
-	width: 0;
-	height: 100%;
-	transition: .5s ease;
-}
-
-.korigan:hover .overlay-left {
-	width: 100%;
-}
-
-.text-left {
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-
-/*Design By Korigan*/
-
-.overlay-left-design-by-korigan {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: #000000;
-	opacity: .8;
-	overflow: visible;
-	width: 0;
-	height: 100%;
-	transition: .5s ease;
-}
-
-.design-by-korigan:hover .overlay-left-design-by-korigan {
-	width: 100%;
-}
-
-.text-left-design-by-korigan {
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-
-/*Hover Effects*/
-
-.cupcakes-effects {
-	padding: 2em;
-	display: block;
-	border: .25em solid whitesmoke;
-	background-image: url(../images/csquare.jpg);
-	background-size: cover;
-	height: 25rem;
-}
-
-.korigan-effects {
-	padding: 2em;
-	border: 1em solid white;
-	background-image: url(../images/korigan.jpg);
-	background-size: cover;
-	height: 25rem;
-}
-
-.design-by-korigan-effects {
-	padding: 3em;
-	margin-top: 3em;
-	display: block;
-	background-image: url(../images/wp.jpg);
-	background-size: cover;
-	height: 50rem;
-}
 
 /************************************************************************/
 /*Contact Page*/
