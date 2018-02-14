@@ -36,10 +36,10 @@ require_once("../php/partials/head-utils.php");
 	<hr>
 	<div class="container bg-white">
 		<div class="row py-5 my-5">
-			<div class="col-md-6 col-lg-push-8">
+			<div class="col-md-6 col-lg-8 order-lg-12">
 				<img src="<?php echo $PREFIX;?>images/photography.jpg" alt="Web Design" class="service-image"/>
 			</div>
-			<div class="col-md-6 col-lg-push-4 text-dark px-3">
+			<div class="col-md-6 col-lg-4 order-lg-1 text-dark px-3">
 				<h3 class="service-title my-4"><span class="first-letter">P</span>hotography and Video Production</h3>
 				<p class="font-weight-bold justify-content-center">Korigan Design provides high quality commercial photography & video production, the key to staying ahead and staying connected. We capture images. We are photographers, filmmakers, storytellers. We produce superior photo and video content for your advertising, marketing, and promotional needs. We are hands-on with every client. We’re a small team. We’re artists and entrepreneurs, supporters of our local community, world travelers and appreciate family time. We’re always plugged in. We like tech. We love art. And dance. And music. And film. We deliver photography and video content you can use. <a href="<?php echo $PREFIX;?>contact/index.php" class="service-contact-link">Contact us</a> today to see how we can help you.</p>
 				<div id="graphicDesign"></div>
@@ -64,10 +64,10 @@ require_once("../php/partials/head-utils.php");
 	<hr>
 	<div class="container bg-white">
 		<div class="row py-5 my-5">
-			<div class="col-md-6 col-lg-push-8">
+			<div class="col-md-6 col-lg-8 order-lg-12">
 				<img src="<?php echo $PREFIX;?>images/seo.jpg" alt="Search Engine Optimization" class="service-image"/>
 			</div>
-			<div class="col-md-6 col-lg-push-4 text-dark px-3">
+			<div class="col-md-6 col-lg-4 order-lg-1 text-dark px-3">
 				<h3 class="service-title my-4"><span class="first-letter">S</span>earch Engine Optimization</h3>
 				<p class="font-weight-bold justify-content-center">SEO is a marketing discipline focused on growing visibility in organic (non-paid) search engine results. SEO encompasses both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines. There are many aspects to SEO, from the words on your page to the way other sites link to you on the web. Sometimes SEO is simply a matter of making sure your site is structured in a way that search engines understand. SEO isn't just about building search engine-friendly websites. It's about making your site better for people too. At Korigan Design, we believe these principles go hand-in-hand. If you want to learn more about how this works or if we would be a good fit for your website needs, <a href="<?php echo $PREFIX;?>contact/index.php" class="service-contact-link">contact us</a> today.</p>
 			</div>
