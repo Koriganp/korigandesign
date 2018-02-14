@@ -20,7 +20,7 @@ require_once("../php/partials/head-utils.php");
 	</div>
 	<hr>
 
-	<div class="container bg-white page-top">
+	<div class="container bg-white">
 		<div class="row py-5 my-5">
 			<div class="col-s-12 col-md-6 col-lg-8">
 				<img src="<?php echo $PREFIX;?>images/web-design.jpg" alt="Web Design" class="service-image"/>
@@ -66,7 +66,7 @@ require_once("../php/partials/head-utils.php");
 		<div class="row py-5 my-5">
 			<div class="col-s-12 col-md-6 col-lg-4 text-dark pr-5">
 				<h3 class="service-title my-4"><span class="first-letter">S</span>earch Engine Optimization</h3>
-				<p class="font-weight-bold justify-content-center">SEO is a marketing discipline focused on growing visibility in organic (non-paid) search engine results. SEO encompasses both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines. There are many aspects to SEO, from the words on your page to the way other sites link to you on the web. Sometimes SEO is simply a matter of making sure your site is structured in a way that search engines understand. SEO isn't just about building search engine-friendly websites. It's about making your site better for people too. At Korigan Design, we believe these principles go hand-in-hand. If you want to learn more about how this works, and whether we would be a good fit for your website needs <a href="<?php echo $PREFIX;?>contact/index.php" class="service-contact-link">Contact us</a> today.</p>
+				<p class="font-weight-bold justify-content-center">SEO is a marketing discipline focused on growing visibility in organic (non-paid) search engine results. SEO encompasses both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines. There are many aspects to SEO, from the words on your page to the way other sites link to you on the web. Sometimes SEO is simply a matter of making sure your site is structured in a way that search engines understand. SEO isn't just about building search engine-friendly websites. It's about making your site better for people too. At Korigan Design, we believe these principles go hand-in-hand. If you want to learn more about how this works or if we would be a good fit for your website needs, <a href="<?php echo $PREFIX;?>contact/index.php" class="service-contact-link">contact us</a> today.</p>
 			</div>
 			<div class="col-s-12 col-md-6 col-lg-8">
 				<img src="<?php echo $PREFIX;?>images/seo.jpg" alt="Search Engine Optimization" class="service-image"/>

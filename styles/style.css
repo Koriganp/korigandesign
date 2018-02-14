@@ -288,10 +288,6 @@ li > a:hover {
 /*Services Page*/
 /************************************************************************/
 
-.page-top {
-	margin-top: 10rem;
-}
-
 .service-title {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -305,10 +301,9 @@ li > a:hover {
 }
 
 .service-contact-link {
-	 color: black;
+	 color: blue;
 	 text-decoration: none;
 	 font-weight: bold;
-	 text-transform: uppercase;
 }
 
 /************************************************************************/
