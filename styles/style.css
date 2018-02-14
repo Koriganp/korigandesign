@@ -51,28 +51,15 @@ body, html {
 	height: 100%;
 }
 
-/************************************************************************/
-/*Navbar*/
-/************************************************************************/
-
-/*Make transparent on Home Page*/
-.navbar-default {
-	background-color:transparent !important;
-	border-color:transparent;
-	background-image:none;
-	box-shadow:none;
-}
-
-/*Make White and Opaque on All Other Pages*/
-.site-nav {
-	background: rgba(255,255,255,.75);
-}
-
 /*Color First Letter*/
 .first-letter {
 	color: blue;
 	font-weight: bold;
 }
+
+/************************************************************************/
+/*Navbar*/
+/************************************************************************/
 
 /*Change brand size*/
 .nav-icon {
@@ -117,7 +104,22 @@ li > a:hover {
 		text-transform: uppercase;
 		font-weight: bold;
 	}
+
+	/*Make transparent on Home Page*/
+	.navbar-default {
+		background-color:transparent !important;
+		border-color:transparent;
+		background-image:none;
+		box-shadow:none;
+	}
+
+	/*Make White and Opaque on All Other Pages*/
+	.site-nav {
+		background: rgba(255,255,255,.75);
+	}
 }
+
+
 
 /*For Medium Screens*/
 
@@ -140,6 +142,19 @@ li > a:hover {
 		color: white;
 		text-transform: uppercase;
 		font-weight: bold;
+	}
+
+	/*Make transparent on Home Page*/
+	.navbar-default {
+		background-color:transparent !important;
+		border-color:transparent;
+		background-image:none;
+		box-shadow:none;
+	}
+
+	/*Make White and Opaque on All Other Pages*/
+	.site-nav {
+		background: rgba(255,255,255,.75);
 	}
 }
 
@@ -164,6 +179,16 @@ li > a:hover {
 		color: black;
 		text-transform: uppercase;
 		font-weight: bold;
+	}
+
+	/*Make transparent on Home Page*/
+	.navbar-default {
+		border-color: white;
+	}
+
+	/*Make White and Opaque on All Other Pages*/
+	.site-nav {
+		background: white;
 	}
 }
 
@@ -272,8 +297,8 @@ li > a:hover {
 
 	.home-text {
 		padding-top: 15%;
-		padding-left: .5rem;
-		padding-right: .5rem;
+		padding-left: .15rem;
+		padding-right: .15rem;
 		width: 100%;
 		margin: 0 auto;
 		display: block;
