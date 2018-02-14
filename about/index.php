@@ -20,7 +20,7 @@ require_once("../php/partials/head-utils.php");
 	</div>
 	<hr>
 
-	<div class="container my-4">
+	<div class="container mb-4">
 		<div class="row">
 			<div class="col-md-6 col-sm-12">
 				<img src="<?php echo $PREFIX;?>images/web-developer.jpg" alt="Web Design" class="about-image">
