@@ -7,19 +7,19 @@
 		<div class="collapse navbar-collapse" id="navbarToggler">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>index.php"><span class="first-letter">H</span>ome </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>index.php">Home </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>services/index.php"> <span class="first-letter">S</span>ervices </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>services/index.php"> Services </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>about/index.php"> <span class="first-letter">A</span>bout </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>about/index.php"> About </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>portfolio/index.php"> <span class="first-letter">P</span>ortfolio </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>portfolio/index.php"> Portfolio </a>
 				</li>
 				<li class="nav-item">
-					<a class="text-dark" href="<?php echo $PREFIX;?>contact/index.php"> <span class="first-letter">C</span>ontact </a>
+					<a class="text-dark" href="<?php echo $PREFIX;?>contact/index.php"> Contact </a>
 				</li>
 			</ul>
 		</div>
