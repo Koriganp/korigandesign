@@ -121,7 +121,7 @@ require_once("../php/partials/head-utils.php");
 
 				<div class="col-md-3 contact-placement" itemscope itemtype="http://schema.org/LocalBusiness">
 					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-						<h5 class="font-weight-bold" itemprop="name"><span class="first-letter">K</span>origan Design</h5>
+						<h5 class="font-weight-bold julius" itemprop="name"><span class="first-letter">K</span>origan Design</h5>
 						<p class="ml-3" itemprop="streetAddress">1039 June St NE</p>
 						<p class="ml-3" itemprop="addressLocality">Albuquerque, <span itemprop="addressRegion">NM</span> <span itemprop="postalCode">87112</span></p>
 						<p class="ml-3" itemprop="telephone">505.304.5104</p>
