@@ -17,14 +17,14 @@ require_once("../php/partials/head-utils.php");
 		<div class="contact-background">
 			<div class="container move-down contact-info">
 				<div class="row">
-					<div class="col-md-3"></div>
-					<div class="col-md-6">
+					<div class="col-xl-3"></div>
+					<div class="col-xl-6">
 						<h2 class="font-weight-bold"><span class="first-letter">O</span>ur goal is your success.</h2>
 						<p class="mt-5 font-weight-bold">We believe that the best business model is to treat people with respect. Not only the investment they are making, but their time as well.</p>
 						<p class="mt-5 font-weight-bold">When you hire us, you get professionalism. That means we are responsive to your needs and are available to answer any questions or concerns you have along the way, either by email, text, phone, or in-person. We will be there.</p>
 						<p class="mt-5 font-weight-bold">Would you like to discuss a potential project? You can send us a message using our contact form, or give us a call or send an email by using the contact information on the right on desktops and at the bottom of the page on mobile.</p>
 					</div>
-					<div class="col-md-3"></div>
+					<div class="col-xl-3"></div>
 				</div>
 			</div>
 		</div>
@@ -37,11 +37,11 @@ require_once("../php/partials/head-utils.php");
 
 				<!-- Spacing -->
 
-				<div class="col-md-1"></div>
+				<div class="col-xl-1"></div>
 
 				<!-- Form -->
 
-				<div class="col-md-7 content-panel form-placement">
+				<div class="col-lg-7 content-panel form-placement">
 					<div>
 
 						<!-- Name Line -->
@@ -119,7 +119,7 @@ require_once("../php/partials/head-utils.php");
 
 				<!-- Contact Info -->
 
-				<div class="col-md-3 contact-placement" itemscope itemtype="http://schema.org/LocalBusiness">
+				<div class="col-lg-3 contact-placement" itemscope itemtype="http://schema.org/LocalBusiness">
 					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 						<h5 class="font-weight-bold julius" itemprop="name"><span class="first-letter">K</span>origan Design</h5>
 						<p class="ml-3" itemprop="streetAddress">1039 June St NE</p>
@@ -142,7 +142,7 @@ require_once("../php/partials/head-utils.php");
 
 				<!-- Spacing -->
 
-				<div class="col-md-1"></div>
+				<div class="col-xl-1"></div>
 			</div>
 		</main>
 
