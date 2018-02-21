@@ -119,12 +119,12 @@ require_once("../php/partials/head-utils.php");
 
 				<!-- Contact Info -->
 
-				<div class="col-md-3 contact-placement">
-					<div>
-						<h5 class="font-weight-bold"><span class="first-letter">A</span>lbuquerque</h5>
-						<p class="ml-3">1039 June St NE</p>
-						<p class="ml-3">Albuquerque, NM 87112</p>
-						<p class="ml-3">505.304.5104</p>
+				<div class="col-md-3 contact-placement" itemscope itemtype="http://schema.org/LocalBusiness">
+					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+						<h5 class="font-weight-bold" itemprop="name"><span class="first-letter">K</span>origan Design</h5>
+						<p class="ml-3" itemprop="streetAddress">1039 June St NE</p>
+						<p class="ml-3" itemprop="addressLocality">Albuquerque, <span itemprop="addressRegion">NM</span> <span itemprop="postalCode">87112</span></p>
+						<p class="ml-3" itemprop="telephone">505.304.5104</p>
 					</div>
 					<div class="my-3">
 						<h5 class="font-weight-bold"><span class="first-letter">G</span>eneral Inquiries</h5>
@@ -136,7 +136,7 @@ require_once("../php/partials/head-utils.php");
 					</div>
 					<div class="my-3">
 						<h5 class="font-weight-bold"><span class="first-letter">S</span>upport</h5>
-						<p class="ml-3"><a href="mailto:support@korigandesign.com?subject=Support">support@korigandesign.com</a></p>
+						<p class="ml-3"><a href="mailto:support@korigandesign.com?subject=Support" itemprop="email">support@korigandesign.com</a></p>
 					</div>
 				</div>
 
