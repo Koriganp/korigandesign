@@ -78,6 +78,76 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link rel="mask-icon" href="<?php echo $PREFIX;?>images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#ffffff">
 
+		<!-- Rich Snippet -->
+
+		<script type="application/ld+json">
+	{
+  	"@context": "http://schema.org",
+  	"@type": "LocalBusiness",
+  	"additionalType": [ "http://www.productontology.org/id/Web_design",
+  	"http://www.productontology.org/id/Software_developer",
+  	"http://www.productontology.org/id/Graphic_design"
+  	],
+  	"@id": "https://korigandesign.com",
+  	"url": "https://korigandesign.com",
+  	"logo": "https://korigandesign.com/images/KD.png",
+  	"contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-505-304-5104",
+    "contactType": "customer service"
+  }],
+  	"email": "info@korigandesign.com",
+  	"address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1039 June St NE",
+    "addressLocality": "Albuquerque",
+    "addressRegion": "NM",
+    "postalCode":"87112"
+  	},
+  	"description": "Custom Software Development, Web and Media Design, and Branding",
+  	"name": "Korigan Design, LLC",
+  	"telephone": "+1-505-304-5104",
+  	"openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "14:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "00:00",
+      "closes": "00:00"
+    }
+  ],
+  	"geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "35.091745",
+    "longitude": "-106.523707"
+ 		},
+ 	"priceRange": "$100-$30000",
+ 	"image": "https://korigandesign.com/images/KD.png",
+  	"sameAs" : [ "https://www.koriganpayne.com",
+    "https://www.designbykorigan.com",
+    "https://twitter.com/KoriganP",
+    "https://github.com/Koriganp"
+    ]
+	}
+</script>
+
 		<!-- Page Title -->
 
 		<title><?php echo $PAGE_TITLE;?></title>
