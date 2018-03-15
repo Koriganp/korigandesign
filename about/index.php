@@ -37,7 +37,7 @@ require_once("../php/partials/head-utils.php");
 		<div class="row py-5 my-5">
 			<div class="col-md-6 order-lg-12">
 				<a href="https://koriganpayne.com/" target="_blank">
-					<img src="<?php echo $PREFIX;?>images/korigan.jpg" alt="Korigan Payne" class="about-image">
+					<img src="<?php echo $PREFIX;?>images/korigan-profile.jpg" alt="Korigan Payne" class="about-image">
 				</a>
 			</div>
 			<div class="col-md-6 order-lg-1 my-3">
