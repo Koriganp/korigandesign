@@ -22,7 +22,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<meta name="viewport" content="width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 		<meta name="author" content="Korigan Payne"/>
-		<meta name="description" content="Korigan Design, LLC is an Albuquerque based wed design and software development company. We also specialize in media and graphic design, branding, and photography."/>
+		<meta name="description" content="Korigan Design, LLC is an Albuquerque based web design and software development company. We also specialize in media and graphic design, branding, and photography."/>
 
 		<!-- Bootstrap CSS -->
 
