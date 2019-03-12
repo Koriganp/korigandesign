@@ -1,7 +1,7 @@
 
 		<footer class="container-fluid">
 			<div class="fixed-bottom justify-content-center">
-				<p class="text-center mt-2">&copy; 2018 Korigan Design</p>
+				<p class="text-center mt-2">&copy; 2019 Korigan Design</p>
 			</div>
 		</footer>
 
