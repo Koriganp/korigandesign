@@ -22,7 +22,7 @@ require_once("../php/partials/head-utils.php");
 						<h2 class="font-weight-bold"><span class="first-letter">O</span>ur goal is your success.</h2>
 						<p class="mt-5 font-weight-bold">We believe that the best business model is to treat people with respect. Not only the investment they are making, but their time as well.</p>
 						<p class="mt-5 font-weight-bold">When you hire us, you get professionalism. That means we are responsive to your needs and are available to answer any questions or concerns you have along the way, either by email, text, phone, or in-person. We will be there.</p>
-						<p class="mt-5 font-weight-bold">Would you like to discuss a potential project? You can send us a message using our contact form, or give us a call or send an email by using the contact information on the right on desktops and at the bottom of the page on mobile.</p>
+						<p class="mt-5 font-weight-bold">Would you like to discuss a potential project? You can send us a message using our contact form, give us a call, or just send an email by using the contact information provided.</p>
 					</div>
 					<div class="col-xl-3"></div>
 				</div>
