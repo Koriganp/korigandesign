@@ -116,7 +116,7 @@ require_once("php/partials/head-utils.php");
 
 		<footer class="footer mt-0 fixed-bottom">
 			<div class="bg text-dark p-2">
-				<p class="foot-text">&copy; 2018 Korigan Design</p>
+				<p class="foot-text">&copy; 2019 Korigan Design</p>
 			</div>
 		</footer>
 
